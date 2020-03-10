@@ -33,7 +33,7 @@ export default class HTML extends PureComponent {
         uri: PropTypes.string,
         tagsStyles: PropTypes.object,
         classesStyles: PropTypes.object,
-        containerStyle:  ViewPropTypes ? ViewPropTypes.style : PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+        containerStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
         customWrapper: PropTypes.func,
         onLinkPress: PropTypes.func,
         onParsed: PropTypes.func,
